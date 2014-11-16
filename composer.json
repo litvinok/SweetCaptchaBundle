@@ -1,0 +1,24 @@
+{
+    "name":        "litvinok/sweet-captcha-bundle",
+    "type":        "symfony-bundle",
+    "description": "Symfony2 SweetCaptcha",
+    "keywords":    ["symfony2", "sweetcaptcha", "bundle"],
+    "license":     "MIT",
+
+    "authors": [
+        {
+            "name": "Alex Litvinok",
+            "email": "litvinok@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": ">=2.3",
+        "litvinok/sweet-captcha": "dev-master"
+    },
+
+    "autoload": {
+        "psr-0": { "SweetCaptcha\\": "" }
+    }
+}
